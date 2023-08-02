@@ -1,0 +1,65 @@
+invader-refactor -M move -r "mek" "cmt"
+invader-refactor -M move -r "cmt" "cmt\gen1"
+echo "Move your item collections folder out from your level's folder."
+pause
+invader-refactor -M move -r "cmt\gen1\weapons\br55 m45 battle rifle" "cmt\gen1\weapons\human\br_grenade"
+invader-refactor -M move -r "cmt\gen1\weapons\galileian" "cmt\gen1\weapons\human\spartan laser"
+invader-refactor -M move -r "cmt\gen1\weapons\m6d pistol" "cmt\gen1\weapons\human\pistol"
+invader-refactor -M move -r "cmt\gen1\weapons\m7 caseless smg" "cmt\gen1\weapons\human\smg"
+invader-refactor -M move -r "cmt\gen1\weapons\m19 ssm rocket launcher" "cmt\gen1\weapons\human\rocket_launcher"
+invader-refactor -M move -r "cmt\gen1\weapons\m90 shotgun" "cmt\gen1\weapons\human\shotgun"
+invader-refactor -M move -r "cmt\gen1\weapons\m7057 flamethrower" "cmt\gen1\weapons\human\flamethrower"
+invader-refactor -M move -r "cmt\gen1\weapons\ma5c assault rifle" "cmt\gen1\weapons\human\assault_rifle"
+invader-refactor -M move -r "cmt\gen1\weapons\s108 am sniper rifle" "cmt\gen1\weapons\human\stealth_sniper"
+
+
+invader-refactor -M move -r "cmt\gen1\weapons\needler" "cmt\gen1\weapons\covenant\needler"
+invader-refactor -M move -r "cmt\gen1\weapons\plasma pistol" "cmt\gen1\weapons\covenant\plasma_pistol"
+invader-refactor -M move -r "cmt\gen1\weapons\plasma rifle" "cmt\gen1\weapons\covenant\plasma_rifle"
+invader-refactor -M move -r "cmt\gen1\weapons\spiker" "cmt\gen1\weapons\covenant\spiker"
+
+
+invader-refactor -M move -r "cmt\gen1\weapons\oddball" "cmt\gen1\weapons\objective\oddball"
+invader-refactor -M move -r "cmt\gen1\weapons\you have the other team s flag" "cmt\gen1\weapons\objective\flag"
+
+
+invader-refactor -M move -r "cmt\gen1\vehicles\m12 warthog lrv" "cmt\gen1\vehicles\warthog_chain"
+invader-refactor -M move -r "cmt\gen1\vehicles\m12a2 warthog laav" "cmt\gen1\vehicles\warthog_rocket"
+invader-refactor -M move -r "cmt\gen1\vehicles\m808b scorpion mbt" "cmt\gen1\vehicles\scorpion"
+
+
+invader-refactor -M move -T "cmt\gen1\weapons\covenant\needler\needler.weapon" "cmt\gen1\weapons\covenant\needler\needler blue.weapon"
+invader-refactor -M move -T "cmt\gen1\weapons\covenant\plasma_rifle\plasma rifle.weapon" "cmt\gen1\weapons\covenant\plasma_rifle\plasma rifle mp.weapon"
+invader-refactor -M move -T "cmt\gen1\weapons\human\assault_rifle\ma5c assault rifle.weapon" "cmt\gen1\weapons\human\assault_rifle\assault rifle cc.weapon"
+invader-refactor -M move -T "cmt\gen1\weapons\human\br_grenade\br55 m45 battle rifle.weapon" "cmt\gen1\weapons\human\br_grenade\br_grenade mp.weapon"
+invader-refactor -M move -T "cmt\gen1\weapons\human\flamethrower\m7057 flamethrower.weapon" "cmt\gen1\weapons\human\flamethrower\flamethrower.weapon"
+invader-refactor -M move -T "cmt\gen1\weapons\human\pistol\m6d pistol.weapon" "cmt\gen1\weapons\human\pistol\pistol.weapon"
+invader-refactor -M move -T "cmt\gen1\weapons\human\rocket_launcher\m19 ssm rocket launcher.weapon" "cmt\gen1\weapons\human\rocket_launcher\rocket launcher mp.weapon"
+invader-refactor -M move -T "cmt\gen1\weapons\human\shotgun\m90 shotgun.weapon" "cmt\gen1\weapons\human\shotgun\shotgun.weapon"
+invader-refactor -M move -T "cmt\gen1\weapons\human\smg\m7 caseless smg.weapon" "cmt\gen1\weapons\human\smg\smg.weapon"
+invader-refactor -M move -T "cmt\gen1\weapons\human\spartan laser\galileian.weapon" "cmt\gen1\weapons\human\spartan laser\spartanlaser mp.weapon"
+invader-refactor -M move -T "cmt\gen1\weapons\human\stealth_sniper\s108 am sniper rifle.weapon" "cmt\gen1\weapons\human\stealth_sniper\sniper rifle.weapon"
+invader-refactor -M move -T "cmt\gen1\weapons\objective\flag\you have the other team s flag.weapon" "cmt\gen1\weapons\objective\flag\flag.weapon"
+
+
+invader-refactor -M move -T "cmt\gen1\item collections\br55 m45 battle rifle.item_collection" "cmt\gen1\item collections\br_grenade mp.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\primary br55 m45 battle rifle ammo.item_collection" "cmt\gen1\item collections\br_grenade ammo.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\secondary br55 m45 battle rifle ammo.item_collection" "cmt\gen1\item collections\br_grenade grenades.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\covenant active camoflauge activated & shield system temporarily boosted.item_collection" "cmt\gen1\item collections\overshield and camo.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\galileian & m19 ssm rocket launcher.item_collection" "cmt\gen1\item collections\rocket launcher mp & spartanlaser mp.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\spartanlaser mp.item_collection" "cmt\gen1\item collections\spartan laser.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\m6d pistol ammo.item_collection" "cmt\gen1\item collections\pistol ammo.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\m6d pistol.item_collection" "cmt\gen1\item collections\pistol.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\m19 ssm rocket launcher ammo.item_collection" "cmt\gen1\item collections\rocket launcher ammo.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\m19 ssm rocket launcher.item_collection" "cmt\gen1\item collections\rocket launcher.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\m90 shotgun ammo.item_collection" "cmt\gen1\item collections\shotgun ammo.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\m90 shotgun.item_collection" "cmt\gen1\item collections\shotgun.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\m7057 flamethrower ammo.item_collection" "cmt\gen1\item collections\flamethrower ammo.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\m7057 flamethrower.item_collection" "cmt\gen1\item collections\flamethrower.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\ma5c assault rifle ammo.item_collection" "cmt\gen1\item collections\assault rifle ammo.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\ma5c assault rifle.item_collection" "cmt\gen1\item collections\assault rifle cc.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\needler.item_collection" "cmt\gen1\item collections\needler blue.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\plasma rifle.item_collection" "cmt\gen1\item collections\plasma rifle mp.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\s108 am sniper rifle ammo.item_collection" "cmt\gen1\item collections\sniper rifle ammo.item_collection"
+invader-refactor -M move -T "cmt\gen1\item collections\s108 am sniper rifle.item_collection" "cmt\gen1\item collections\sniper rifle.item_collection"
+pause
